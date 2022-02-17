@@ -23,9 +23,9 @@ class Sliceing{
         {
             for(int j = 0 ; j < area.length-1 ; j++)
             { 
-                int currentpoto = area[j];
+                int currentwall = area[j];
 
-                resulta = currentpoto * (area.length-1 - j);
+                resulta = currentwall * (area.length-1 - j);
 
                 if(currentresult < resulta)
                 {
